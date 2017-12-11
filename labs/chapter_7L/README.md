@@ -24,3 +24,11 @@
       * GoSearch (twice) --> Navigate --> Refesh --> Refresh2
       * [FIX] The program displays and advertisement webpage to the user.
 1. (no info) [FIX] The program finishes executing after displaying the advertisement.
+
+### Lab 7-3
+
+1. [FIX] This program achieves persistence by writing a DLL file to `C:\Windows\System32` and modifying all the .exe files in `C:\` to import that DLL.
+1. Two good host-based signatures:
+   * A file called `"kerne132.dll"` (number `1` instead of letter `l`) in `"C:\Windows\system32"` folder.
+   * [FIX] A mutex: `SADFHUHF` (inside .dll file))
+1. [FIX] Restore the system from the backup. Or: keep the `kerne132.dll` but modify it to remove malicious content. Or: copy `kernel32.dll` and rename it to `kerne132.dll`. Or: write a program to undo all changes to the PE files.
