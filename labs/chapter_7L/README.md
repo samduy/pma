@@ -31,4 +31,6 @@
 1. Two good host-based signatures:
    * A file called `"kerne132.dll"` (number `1` instead of letter `l`) in `"C:\Windows\system32"` folder.
    * [FIX] A mutex: `SADFHUHF` (inside .dll file))
+1. [FIX] The purpose of this program:
+   * Create a dificult-to-remove backdoor that connects to a remote host. The backdoor has two commands: one to execute and one to sleep.
 1. [FIX] Restore the system from the backup. Or: keep the `kerne132.dll` but modify it to remove malicious content. Or: copy `kernel32.dll` and rename it to `kerne132.dll`. Or: write a program to undo all changes to the PE files.
